@@ -1,0 +1,74 @@
+body{
+  font-family: "tahoma";
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.form{
+  color: white;
+}
+input { 
+  background-color: transparent;
+  border: 0;
+  border:1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button{
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+}
+form{
+  background-color: teal;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+}
+input::placeholder{
+  color:white;
+  opacity: 0.5;
+}
+.header{
+  padding: 20px;
+  color: white;
+  background-color: teal;
+  border-bottom: 1px solid white;
+}
+.weather{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.clouds{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.weather h2{
+  align-self: center;
+}
+#flag {
+  height: 20px;
+  width: auto;
+  align-self: center;
+  margin-right: 10px;
+}
+h3{
+  margin: 10px 0 ;
+  text-align: justify;
+}
+.holder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
